@@ -21,3 +21,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 Settings JSON URL location: `/src/constants/index.js`
 
 Pet JSON URL location: `/src/constants/index.js`
+
+## @todos
+
+Implement HOC Image loader component.
+Move all stray mark up to components.
+Form validating for settings > age.
