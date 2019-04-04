@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "hammerjs": "^2.0.8",
     "isomorphic-unfetch": "^3.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-dotdotdot": "^1.2.3",
+    "react-hammerjs": "^1.0.1",
     "react-lines-ellipsis": "^0.14.1",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
