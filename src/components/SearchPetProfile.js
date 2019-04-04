@@ -5,10 +5,7 @@ export default ({ petInfo, profile }) => {
     <>
       <h4>
         {petInfo}
-        <div
-          style={{ marginTop: 5, fontSize: 12 }}
-          onClick={() => setHidden(false)}
-        >
+        <div style={{ marginTop: 5 }} onClick={() => setHidden(false)}>
           Click here to see profile
         </div>
       </h4>
