@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Layout from "../components/Layout.js";
 import { connect } from "react-redux";
-import { Card, CardWrapper } from "react-swipeable-cards";
+import Card from "../components/cards/Card";
+import CardWrapper from "../components/cards/CardWrapper";
 import SearchPetProfile from "../components/SearchPetProfile";
 import "./Search.css";
 import types from "../actions/types";
@@ -44,7 +45,6 @@ class Search extends Component {
             draggable="false"
             alt={d.name}
             src={d.img}
-            width="200"
           />
           <SearchPetProfile petInfo={petInfo} profile={d.profile} />
         </Card>
