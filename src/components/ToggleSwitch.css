@@ -1,0 +1,57 @@
+.toggle-switch {
+  position: relative;
+  width: 5rem;
+  height: 2.35rem;
+  display: inline-block;
+}
+
+.toggle-switch.toggle-switch-rounded .slider {
+  border-radius: 15rem;
+  background: #eceff1;
+  border: 1px solid #a0a0a0;
+}
+
+.toggle-switch.toggle-switch-rounded .slider:before {
+  border-radius: 50%;
+}
+
+.toggle-switch .toggle-switch-wrapper {
+  position: relative;
+  width: 5rem;
+  height: 2.35rem;
+}
+
+.toggle-switch .toggle-switch-wrapper .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s ease;
+}
+
+.toggle-switch .toggle-switch-wrapper .slider:before {
+  width: 2.45rem;
+  height: 2.45rem;
+  position: absolute;
+  background: #006400;
+  content: "";
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 0.1rem;
+  transform: translateY(-50%);
+  transition: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.toggle-switch .toggle-switch-wrapper .slider.isChecked {
+  background: #fff;
+}
+
+.toggle-switch .toggle-switch-wrapper .slider.isChecked:before {
+  left: calc(100% - 0.1rem - 2.45rem);
+  background: #0099ff;
+}

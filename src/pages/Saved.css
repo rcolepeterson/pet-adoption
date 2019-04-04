@@ -1,0 +1,61 @@
+.pets ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.pet-details {
+  width: 100%;
+  float: left;
+}
+
+.pet-details .avatar {
+  width: 40px;
+  height: auto;
+  border-radius: 20px;
+  float: left;
+  margin-right: 14px;
+}
+
+.cf:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.pet-item {
+  background: #fff;
+  padding: 10px;
+}
+
+.pet-details .avatar-holder {
+  float: left;
+  min-height: 60px;
+}
+
+.pet-details .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-clip: padding-box;
+  margin: 0 10px 0 0;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+}
+
+.pet-details h3 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.pet-details a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+.pet-details p {
+  width: 90%;
+}
